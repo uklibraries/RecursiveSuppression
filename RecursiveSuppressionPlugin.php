@@ -134,7 +134,7 @@ EOT;
        rows="3"
        cols="50">{$view->escape($m['recursive-reason'])}</textarea>
 </span>
-<span class="description-checkbox {$view->escape($descriptive_visibility)}">
+<span class="description-checkbox {$view->escape($description_visibility)}">
 <input name="{$view->escape($description_id)}"
        id="{$view->escape($description_id)}"
        class="suppression"
@@ -144,7 +144,7 @@ EOT;
 <label class="suppression" 
        for="{$view->escape($description_id)}">{$view->escape(__('Suppress description'))} </label>
 </span>
-<span class="description-reason {$view->escape($descriptive_reason_visibility)}">
+<span class="description-reason {$view->escape($description_reason_visibility)}">
 <label class="suppression-reason"
        for="{$view->escape($description_reason_id)}">{$view->escape(__('Reason for suppression'))} </label>
 <textarea name="{$view->escape($description_reason_id)}"
@@ -207,7 +207,7 @@ EOT;
        $dchecked>
 <label class="suppression" 
        for="{$view->escape($description_id)}">{$view->escape(__('Suppress description'))} </label>
-<span class="description-reason {$view->escape($descriptive_reason_visibility)}">
+<span class="description-reason {$view->escape($description_reason_visibility)}">
 <label class="suppression-reason"
        for="{$view->escape($description_reason_id)}">{$view->escape(__('Reason for suppression'))} </label>
 <textarea name="{$view->escape($description_reason_id)}"

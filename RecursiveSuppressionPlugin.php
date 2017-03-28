@@ -102,7 +102,7 @@ EOT;
         $rchecked = '';
         $recursive_reason_visibility = 'dependent-hidden';
         $dchecked = '';
-        $description_visibity = 'dependent-hidden';
+        $description_visibility = 'dependent-hidden';
         $description_reason_visibility = 'dependent-hidden';
 
         if ($m['recursive']) {
